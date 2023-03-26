@@ -1,0 +1,210 @@
+:root {
+  --color-font-primary: #212121;
+  --color-font-snow: #ffffff;
+  --color-font-light: #f5f4fa;
+  --color-font-dark: #000000;
+  --color-font-sky: #2196f3;
+  --color-font-wood: #757575;
+  --color-font-cloud: #2f303a;
+  --color-font-eclipse: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-font-primary);
+  background: var(--color-font-snow);
+}
+.menu {
+  background-color: var(--color-font-snow);
+}
+.link-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  color: var(--color-font-sky);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.menu-logo:hover {
+  color: var(--color-font-sky);
+}
+.menu-logo {
+  color: var(--color-font-dark);
+}
+.navigation-link {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  color: var(--color-font-primary);
+  letter-spacing: 0.02em;
+  text-decoration-line: none;
+}
+.navigation-link:focus,
+.navigation-link:hover {
+  color: var(--color-font-sky);
+}
+.communications-link {
+  background: var(--color-font-snow);
+}
+.link-top {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  color: var(--color-font-wood);
+  text-decoration-line: none;
+  letter-spacing: 0.02em;
+}
+.link-top:hover,
+.link-top:focus {
+  color: var(--color-font-sky);
+}
+.filter {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  border-radius: 4px;
+  background: var(--color-font-light);
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.filter:hover,
+.filter:focus {
+  background-color: var(--color-font-sky);
+  color: var(--color-font-snow);
+}
+.model-project {
+  background: var(--color-font-snow);
+}
+.model-works {
+  width: 370px;
+  height: 294px;
+}
+.name-works {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.text-works {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--color-font-wood);
+  letter-spacing: 0.03em;
+}
+.vital-page,
+.finish-block {
+  background: var(--color-font-cloud);
+}
+.title {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3;
+  color: var(--color-font-snow);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.click {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--color-font-snow);
+  background: var(--color-font-sky);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  display: flex;
+  letter-spacing: 0.06em;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.click:focus,
+.click:hover {
+  color: var(--color-font-snow);
+}
+.rank-name {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.post {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-font-wood);
+  letter-spacing: 0.03em;
+}
+.creation-team {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.creation-photo {
+  width: 370px;
+  height: 294px;
+  mix-blend-mode: normal;
+}
+.team-people-job {
+  background: var(--color-font-light);
+}
+.team-people {
+  width: 270px;
+  height: 260px;
+  border-radius: 0px;
+}
+.person {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.name-job {
+  font-size: 16px;
+  line-height: 1.1;
+  color: var(--color-font-wood);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.logo-bottom:hover {
+  color: var(--color-font-sky);
+}
+.logo-bottom {
+  color: var(--color-font-snow);
+}
+.contact-link,
+.contact-road:hover,
+.contact-link,
+.contact-road:focus {
+  color: var(--color-font-sky);
+}
+.contact-link {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-font-snow);
+  text-decoration-line: none;
+  letter-spacing: 0.03em;
+}
+.contact-road {
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
