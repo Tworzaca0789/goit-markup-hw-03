@@ -7,6 +7,7 @@
   --color-font-wood: #757575;
   --color-font-cloud: #2f303a;
   --color-font-eclipse: rgba(255, 255, 255, 0.6);
+  --color-border-white: #eeeeee;
 }
 *,
 *::before,
@@ -102,7 +103,17 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+.model-filter {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  gap: 8px;
+}
+.filter-family {
+  display: inline-flex;
+  padding-top: 0;
+  padding-bottom: 50px;
+}
 .filter {
   font-family: "Roboto";
   font-weight: 500;
@@ -121,6 +132,14 @@ body {
 }
 .model-project {
   background: var(--color-font-snow);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.item-project {
+  display: inline-block;
+  flex-basis: calc((100%-20px) / 3);
+  border-bottom: 1px solid var(--color-border-white);
 }
 .model-works {
   width: 370px;
