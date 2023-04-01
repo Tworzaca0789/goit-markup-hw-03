@@ -9,10 +9,9 @@
   --color-font-eclipse: rgba(255, 255, 255, 0.6);
   --color-border-white: #eeeeee;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -23,16 +22,21 @@ body {
   background: var(--color-font-snow);
 }
 .container {
+  width: 100%;
   max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .container-menu {
   display: flex;
   border: 1px solid #ececec;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .container-menu .link-logo {
+  display: inline-block;
   padding-top: 24px;
   padding-bottom: 25px;
+
   display: flex;
 }
 .menu {
@@ -46,7 +50,6 @@ body {
   color: var(--color-font-sky);
   text-decoration: none;
   letter-spacing: 0.03em;
-  padding-left: 215px;
 }
 .menu-logo:hover {
   color: var(--color-font-sky);
@@ -54,14 +57,17 @@ body {
 .menu-logo {
   color: var(--color-font-dark);
 }
-.container-menu .navigation {
+.navigation {
   display: flex;
+  gap: 46px;
 }
-.navigation .item {
+.item {
   display: flex;
+  justify-content: stretch;
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
 .navigation .navigation-link {
   font-family: "Roboto";
   font-weight: 500;
@@ -80,6 +86,7 @@ body {
 }
 .communications-link {
   display: flex;
+  gap: 50px;
 }
 .communications-link .items {
   display: flex;
@@ -99,20 +106,14 @@ body {
 .link-top:focus {
   color: var(--color-font-sky);
 }
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .model-filter {
-  display: inline-flex;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
+  display: flex;
+  justify-content: center;
   gap: 8px;
+  padding-bottom: 33px;
 }
 .filter-family {
-  display: inline-flex;
-  padding-top: 0;
-  padding-bottom: 50px;
+  display: inline-block;
 }
 .filter {
   font-family: "Roboto";
@@ -132,14 +133,16 @@ body {
 }
 .model-project {
   background: var(--color-font-snow);
-  display: flex;
+  display: block;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 30px;
 }
 .item-project {
   display: inline-block;
   flex-basis: calc((100%-20px) / 3);
+  border-right: 1px solid var(--color-border-white);
   border-bottom: 1px solid var(--color-border-white);
+  border-left: 1px solid var(--color-border-white);
 }
 .model-works {
   width: 370px;
@@ -151,12 +154,16 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .text-works {
   font-size: 16px;
   line-height: 1.8;
   color: var(--color-font-wood);
   letter-spacing: 0.03em;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .container-title,
 .finish-block {
@@ -168,8 +175,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  margin: 0;
 }
 .title {
   font-family: "Roboto";
@@ -180,7 +186,8 @@ body {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.06em;
-  padding: 200px 452px 280px;
+  padding-top: 200px;
+  padding-bottom: 30px;
   max-width: 696px;
   display: flex;
   justify-content: center;
@@ -198,9 +205,9 @@ body {
   text-align: center;
   border-radius: 4px solid #2196f3;
   cursor: pointer;
-  padding: 10px 41px;
-  width: 200px;
+  margin-bottom: 200px;
   height: 50px;
+  width: 200px;
   display: flex;
   justify-content: center;
 }
@@ -208,17 +215,18 @@ body {
 .click:hover {
   color: var(--color-font-snow);
 }
-.container-post {
-  margin: 0;
-}
 .composition-text {
   background-color: var(--color-font-snow);
+  padding-top: 84px;
+  display: inline-block;
+  width: 1170px;
+  flex-wrap: nowrap;
+  margin-bottom: 0;
 }
 .child {
   width: 270px;
+  height: 260px;
   display: inline-block;
-  justify-content: center;
-  padding-right: 30px;
 }
 .rank-name {
   font-family: "Roboto";
@@ -242,11 +250,11 @@ body {
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
-  display: block;
+  display: inline-block;
+  justify-content: center;
   width: 352px;
-  height: 40px;
-  padding-left: 624px;
-  padding-right: 624px;
+  margin-top: 0;
+  padding-left: 409px;
 }
 .childrens {
   width: 1170px;
@@ -334,7 +342,6 @@ body {
 .container-bottom {
   padding-top: 20px;
   padding-bottom: 60px;
-  padding-left: 215px;
 }
 .kids-bottom {
   display: block;
