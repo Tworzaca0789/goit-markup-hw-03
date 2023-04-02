@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,56 +16,59 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="menu">
-      <div class="container">
-        <div class="container-menu">
-          <a href="./index.html" class="link-logo"
-            >Web<span class="menu-logo">Studio</span></a
-          >
-          <nav>
-            <ul class="navigation">
-              <li class="item">
-                <a class="navigation-link" href="./index.html">Agencja</a>
+      <section class="section-header">
+        <div class="container">
+          <div class="container-menu">
+            <a href="./index.html" class="link-logo"
+              >Web<span class="menu-logo">Studio</span></a
+            >
+            <nav class="box-menu">
+              <ul class="navigation">
+                <li class="item">
+                  <a class="navigation-link" href="./index.html">Agencja</a>
+                </li>
+                <li class="item">
+                  <a class="navigation-link" href="./portfolio.html"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="item">
+                  <a class="navigation-link" href="./index.html">Kontakt</a>
+                </li>
+              </ul>
+            </nav>
+            <ul class="communications-link">
+              <li class="items">
+                <a class="link-top" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
-              <li class="item">
-                <a class="navigation-link" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="item">
-                <a class="navigation-link" href="./index.html">Kontakt</a>
+              <li class="items">
+                <a class="link-top" href="tel:+48111111111">+48 111 111 111</a>
               </li>
             </ul>
-          </nav>
-          <ul class="communications-link">
-            <li class="items">
-              <a class="link-top" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="items">
-              <a class="link-top" href="tel:+48111111111">+48 111 111 111</a>
-            </li>
-          </ul>
+          </div>
         </div>
-      </div>
+      </section>
     </header>
+
     <main>
-      <div class="container">
-        <section class="section">
+      <section class="section-new">
+        <div class="container">
           <div class="container-title">
             <h1 class="title">
               <strong>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</strong>
             </h1>
             <button class="click" type="button">Zamów usługe</button>
           </div>
-        </section>
-        <section class="section">
+        </div>
+      </section>
+
+      <section class="section-vision">
+        <div class="container">
           <div class="text-box">
             <ul class="composition-text">
               <li class="child">
@@ -93,9 +100,12 @@
                 </p>
               </li>
             </ul>
-            </div>
-        </section>
-        <section class="section">
+          </div>
+        </div>
+      </section>
+
+      <section class="section-hand-photos">
+        <div class="container">
           <div class="container-photo">
             <h2 class="creation-team">Czym się zajmujemy</h2>
             <ul class="childrens">
@@ -128,8 +138,11 @@
               </li>
             </ul>
           </div>
-        </section>
-        <section class="section">
+        </div>
+      </section>
+
+      <section class="section-marketing-people">
+        <div class="container">
           <div class="team-people-job-box">
             <h2 class="creation-team-secend">Nasz zespół</h2>
             <ul class="kids-person">
@@ -179,38 +192,38 @@
               </li>
             </ul>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
     <footer class="finish-block">
       <div class="container">
         <div class="logo-end">
-        <a href="./index.html" class="link-logo"
-          >Web<span class="logo-bottom">Studio</span></a
-        >
-        <address>
-          <ul class="container-bottom">
-            <li class="kids-bottom">
-              <a
-                class="contact-link"
-                href="https://goo.gl/maps/WGY587vLbB5wT8iL8"
-                target="_blank"
-                >m. Warszawa, Aleje Jerozolimskie 21</a
-              >
-            </li>
-            <li class="kids-bottom">
-              <a class="contact-road" href="mailto:info@example.com"
-                >info@example.com</a
-              >
-            </li>
-            <li class="kids-bottom">
-              <a class="contact-road" href="tel:+48111111111"
-                >+48 111 111 111</a
-              >
-            </li>
-          </ul>
-        </address>
+          <a href="./index.html" class="link-logo"
+            >Web<span class="logo-bottom">Studio</span></a
+          >
+          <address>
+            <ul class="container-bottom">
+              <li class="kids-bottom">
+                <a
+                  class="contact-link"
+                  href="https://goo.gl/maps/WGY587vLbB5wT8iL8"
+                  target="_blank"
+                  >m. Warszawa, Aleje Jerozolimskie 21</a
+                >
+              </li>
+              <li class="kids-bottom">
+                <a class="contact-road" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="kids-bottom">
+                <a class="contact-road" href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </address>
         </div>
       </div>
     </footer>

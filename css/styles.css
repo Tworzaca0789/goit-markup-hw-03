@@ -28,10 +28,12 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+/* header studio i portfolio*/
+
 .container-menu {
   display: flex;
-  border: 1px solid var(--color-border-eys);
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 .container-menu .link-logo {
   display: flex;
@@ -56,15 +58,19 @@ body {
 .menu-logo {
   color: var(--color-font-dark);
 }
+.section-header {
+  background-color: var(--color-font-snow);
+  border-bottom: 1px solid var(--color-border-eys);
+}
 .navigation {
   display: flex;
   gap: 46px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 371px;
 }
 .item {
   display: flex;
-  justify-content: stretch;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .navigation .navigation-link {
   font-family: "Roboto";
@@ -80,13 +86,12 @@ body {
   color: var(--color-font-sky);
 }
 .communications-link {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
   background: var(--color-font-snow);
 }
-.communications-link {
-  display: flex;
-  gap: 50px;
-}
-.communications-link .items {
+.items {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -104,6 +109,10 @@ body {
 .link-top:focus {
   color: var(--color-font-sky);
 }
+/*main portfolio*/
+.section-cube {
+  background-color: var(--color-font-snow);
+}
 .container-button {
   background-color: var(--color-font-snow);
   max-width: 1200px;
@@ -111,7 +120,6 @@ body {
   margin-right: auto;
   padding-bottom: 95px;
 }
-
 .model-filter {
   display: flex;
   justify-content: center;
@@ -124,6 +132,9 @@ body {
 .filter-family {
   display: flex;
 }
+.filter-family:active {
+  background-color: var(--color-font-sky);
+}
 .filter {
   font-family: "Roboto";
   font-weight: 500;
@@ -134,6 +145,9 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border: none;
+  padding: 6px 22px;
+  margin-bottom: 16px;
 }
 .filter:hover,
 .filter:focus {
@@ -151,6 +165,7 @@ body {
 }
 .item-project {
   flex-basis: calc((100%-60px) / 3);
+  display: block;
   border-right: 1px solid var(--color-border-white);
   border-bottom: 1px solid var(--color-border-white);
   border-left: 1px solid var(--color-border-white);
@@ -179,6 +194,10 @@ body {
   padding-left: 24px;
   padding-right: 24px;
 }
+/*main studio section-new*/
+.section-new {
+  background: var(--color-font-cloud);
+}
 .container-title,
 .finish-block {
   background: var(--color-font-cloud);
@@ -189,6 +208,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
+  background: var(--color-font-cloud);
 }
 .title {
   font-family: "Roboto";
@@ -217,6 +237,7 @@ body {
   align-items: center;
   text-align: center;
   border-radius: 4px;
+  border: 0;
   cursor: pointer;
   margin-bottom: 200px;
   height: 50px;
@@ -228,9 +249,12 @@ body {
 .click:hover {
   color: var(--color-font-snow);
 }
+/*main studio section-vision*/
+.section-vision {
+  background-color: var(--color-font-snow);
+}
 .text-box {
   background-color: var(--color-font-snow);
-  width: 1200px;
 }
 .composition-text {
   background-color: var(--color-font-snow);
@@ -259,6 +283,10 @@ body {
   letter-spacing: 0.03em;
   padding-top: 10px;
   width: 270px;
+}
+/*main studio section-hand-photos*/
+.section-hand-photos {
+  background-color: var(--color-font-snow);
 }
 .container-photo {
   background-color: var(--color-font-snow);
@@ -289,6 +317,10 @@ body {
   width: 370px;
   height: 294px;
   mix-blend-mode: normal;
+}
+/*main studio section-marketing-people*/
+.section-marketing-people {
+  background: var(--color-font-light);
 }
 .team-people-job-box {
   background: var(--color-font-light);
@@ -342,10 +374,11 @@ body {
   letter-spacing: 0.03em;
   padding-bottom: 30px;
 }
+/* footer studio i portfolio*/
+
 .logo-end .link-logo {
   display: flex;
   padding-top: 60px;
-  padding-left: 215px;
 }
 .logo-bottom:hover {
   color: var(--color-font-sky);
@@ -362,11 +395,9 @@ body {
 .container-bottom {
   padding-top: 20px;
   padding-bottom: 60px;
-  padding-left: 215px;
 }
 .kids-bottom {
   display: flex;
-  padding-top: 9px;
 }
 .contact-link {
   font-size: 14px;
@@ -374,11 +405,14 @@ body {
   color: var(--color-font-snow);
   text-decoration-line: none;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 .contact-road {
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
   letter-spacing: 0.03em;
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
+  padding-top: 9px;
 }

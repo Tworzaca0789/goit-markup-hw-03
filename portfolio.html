@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,49 +16,50 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="menu">
-      <div class="container">
-        <div class="container-menu">
-          <a href="./index.html" class="link-logo"
-            >Web<span class="menu-logo">Studio</span></a
-          >
-          <nav>
-            <ul class="navigation">
-              <li class="item">
-                <a class="navigation-link" href="./index.html">Agencja</a>
+      <section class="section-header">
+        <div class="container">
+          <div class="container-menu">
+            <a href="./index.html" class="link-logo"
+              >Web<span class="menu-logo">Studio</span></a
+            >
+            <nav class="box-menu">
+              <ul class="navigation">
+                <li class="item">
+                  <a class="navigation-link" href="./index.html">Agencja</a>
+                </li>
+                <li class="item">
+                  <a class="navigation-link" href="./portfolio.html"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="item">
+                  <a class="navigation-link" href="./portfolio.html"
+                    >Kontakty</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <ul class="communications-link">
+              <li class="items">
+                <a class="link-top" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
-              <li class="item">
-                <a class="navigation-link" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="item">
-                <a class="navigation-link" href="./portfolio.html">Kontakty</a>
+              <li class="items">
+                <a class="link-top" href="tel:+48111111111">+48 111 111 111</a>
               </li>
             </ul>
-          </nav>
-          <ul class="communications-link">
-            <li class="items">
-              <a class="link-top" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="items">
-              <a class="link-top" href="tel:+48111111111">+48 111 111 111</a>
-            </li>
-          </ul>
+          </div>
         </div>
-      </div>
+      </section>
     </header>
 
     <main>
-      <div class="container">
-        <section class="section">
+      <section class="section-cube">
+        <div class="container">
           <div class="container-button">
             <ul class="model-filter">
               <li class="filter-family">
@@ -184,8 +189,8 @@
               </li>
             </ul>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
     <footer class="finish-block">
