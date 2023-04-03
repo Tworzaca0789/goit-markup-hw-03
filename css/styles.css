@@ -165,10 +165,6 @@ body {
   border-bottom: 1px solid var(--color-border-white);
   border-left: 1px solid var(--color-border-white);
 }
-.model-works {
-  width: 370px;
-  height: 294px;
-}
 .name-works {
   font-family: "Roboto";
   font-weight: 700;
@@ -235,10 +231,9 @@ body {
   border: 0;
   cursor: pointer;
   margin-bottom: 200px;
-  height: 50px;
-  width: 200px;
   display: flex;
   justify-content: center;
+  padding: 10px 42px 10px 41px;
 }
 .click:focus,
 .click:hover {
@@ -259,7 +254,6 @@ body {
   list-style: none;
   padding-top: 94px;
   padding-bottom: 94px;
-  width: 1170px;
 }
 .child {
   display: inline-block;
@@ -278,7 +272,6 @@ body {
   color: var(--color-font-wood);
   letter-spacing: 0.03em;
   padding-top: 10px;
-  width: 270px;
 }
 /*main studio section-hand-photos*/
 .section-hand-photos {
@@ -297,8 +290,6 @@ body {
   display: block;
 }
 .childrens {
-  width: 1170px;
-  height: 386px;
   border: 0;
   padding-top: 50px;
   margin-bottom: 94px;
@@ -309,8 +300,6 @@ body {
   display: inline-block;
 }
 .creation-photo {
-  width: 370px;
-  height: 294px;
   mix-blend-mode: normal;
 }
 /*main studio section-marketing-people*/
@@ -330,7 +319,6 @@ body {
   padding-top: 94px;
 }
 .kids-person {
-  width: 1170px;
   display: flex;
   flex-wrap: nowrap;
   align-content: stretch;
@@ -341,8 +329,6 @@ body {
   border-radius: 1px solid var(--color-font-snow);
 }
 .kids {
-  width: 270px;
-  height: 368px;
   padding: 0;
   background-color: var(--color-font-snow);
   display: block;
