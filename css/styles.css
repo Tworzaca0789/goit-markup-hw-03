@@ -14,7 +14,6 @@
   padding: 0;
   margin: 0;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -115,7 +114,6 @@ body {
 }
 .container-button {
   background-color: var(--color-font-snow);
-  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 95px;
@@ -124,7 +122,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 8px;
-  padding-bottom: 34px;
+  padding-bottom: 50px;
   padding-top: 94px;
   background-color: var(--color-font-snow);
   border: 1px var(--color-border-white);
@@ -141,13 +139,12 @@ body {
   font-size: 16px;
   line-height: 1.6;
   border-radius: 4px;
+  cursor: pointer;
   background: var(--color-font-light);
   text-align: center;
   letter-spacing: 0.03em;
-  cursor: pointer;
   border: none;
   padding: 6px 22px;
-  margin-bottom: 16px;
 }
 .filter:hover,
 .filter:focus {
@@ -158,13 +155,11 @@ body {
   background: var(--color-font-snow);
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 25px;
   padding: 0;
   list-style: none;
-  width: 1200px;
 }
 .item-project {
-  flex-basis: calc((100%-60px) / 3);
   display: block;
   border-right: 1px solid var(--color-border-white);
   border-bottom: 1px solid var(--color-border-white);
@@ -263,6 +258,7 @@ body {
   gap: 30px;
   list-style: none;
   padding-top: 94px;
+  padding-bottom: 94px;
   width: 1170px;
 }
 .child {
@@ -290,7 +286,6 @@ body {
 }
 .container-photo {
   background-color: var(--color-font-snow);
-  width: 1200px;
 }
 .creation-team {
   font-family: "Roboto";
@@ -300,13 +295,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   display: block;
-  padding-top: 101px;
 }
 .childrens {
   width: 1170px;
   height: 386px;
   border: 0;
   padding-top: 50px;
+  margin-bottom: 94px;
   display: flex;
   gap: 30px;
 }
@@ -324,7 +319,6 @@ body {
 }
 .team-people-job-box {
   background: var(--color-font-light);
-  width: 1200px;
 }
 .creation-team-secend {
   font-family: "Roboto";
@@ -333,7 +327,7 @@ body {
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 50px;
+  padding-top: 94px;
 }
 .kids-person {
   width: 1170px;
